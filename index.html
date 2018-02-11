@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='style.css' rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h1-title">Hava Durumu</h1>
+      <div class="input-container">
+          <input id="placeTextbox" class="textbox" placeholder="city, town etc." type="text">
+          <button id="getWeather" class="button" type="button">Get Weather</button>
+      </div>
+    </div>
+
+    <div class="resultContainer">
+      <table class="results-table">
+        
+        <tbody>
+          <tr>
+            <th>
+              Konum
+            </th>
+            <th>
+              Sicaklik
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <span id="locationSpan">-</span>
+            </td>
+            <td>
+              <span id="tempretureSpan">-</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
